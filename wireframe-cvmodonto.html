@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/danie/Downloads/wireframe-landing-page-cvm_1.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Wireframe — CVM Odontologia</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #e8e8e8;
+    color: #333;
+  }
+  .page {
+    max-width: 960px;
+    margin: 24px auto;
+    background: #fff;
+    border: 2px solid #333;
+  }
+  .block {
+    border-bottom: 1px dashed #999;
+    padding: 20px 24px;
+    position: relative;
+  }
+  .label {
+    position: absolute;
+    top: 6px;
+    left: 24px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #999;
+    text-transform: uppercase;
+  }
+  .content { margin-top: 18px; }
+  .placeholder-img {
+    background: repeating-linear-gradient(45deg, #ddd, #ddd 10px, #eee 10px, #eee 20px);
+    border: 1px dashed #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 11px;
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #fff;
+  }
+  .btn.primary { background: #333; color: #fff; }
+
+  /* header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-box {
+    border: 1px solid #333;
+    padding: 6px 10px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .header-right { display: flex; align-items: center; gap: 12px; font-size: 11px; }
+
+  /* nav */
+  .nav { display: flex; gap: 16px; font-size: 10px; }
+  .nav span { border-bottom: 1px dotted #999; padding-bottom: 2px; }
+
+  /* hero */
+  .hero { display: flex; gap: 24px; align-items: center; }
+  .hero-text { flex: 1; }
+  .hero-text h1 { font-size: 22px; margin: 0 0 8px; border-bottom: 2px solid #333; display:inline-block; padding-bottom:4px;}
+  .hero-text p { font-size: 12px; color: #555; }
+  .hero-img { flex: 1; height: 160px; }
+
+  /* sobre + big numbers */
+  .sobre-flex { display: flex; gap: 24px; align-items: center; }
+  .sobre-text { flex: 1.2; font-size: 12px; line-height: 1.6; color: #555; }
+  .numbers-grid { flex: 1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .number-item { border: 1px solid #ccc; padding: 14px 8px; text-align: center; }
+  .number-item .num { font-size: 22px; font-weight: bold; display: block; }
+  .number-item .desc { font-size: 9px; color: #777; }
+
+  /* diferenciais */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .diff-item {
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .diff-item .icon {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    margin: 0 auto 8px;
+  }
+
+  /* servicos */
+  .servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .servico-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .servico-card .servico-desc {
+    font-size: 8.5px;
+    color: #888;
+    margin-top: 6px;
+    line-height: 1.4;
+    font-weight: normal;
+  }
+  .servico-card.destaque {
+    border: 2px solid #333;
+    background: #f2f2f2;
+    font-weight: bold;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 8px;
+    background: #333;
+    color: #fff;
+    padding: 2px 5px;
+    margin-top: 4px;
+  }
+
+  /* equipe */
+  .equipe-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  .equipe-card { text-align: center; font-size: 10px; }
+  .equipe-photo {
+    height: 80px;
+    margin-bottom: 6px;
+  }
+  .equipe-card .nome { font-weight: bold; font-size: 10px; }
+  .equipe-card .cro { color: #777; font-size: 9px; }
+  .equipe-card .esp { font-size: 9px; margin-top: 3px; }
+
+  /* convenios */
+  .convenios-row {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .convenio-logo {
+    border: 1px solid #ccc;
+    padding: 10px 18px;
+    font-size: 10px;
+  }
+
+  /* cta final */
+  .cta-final { text-align: center; }
+  .cta-final h2 { font-size: 16px; margin-bottom: 10px; }
+
+  /* footer */
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    font-size: 10px;
+    color: #555;
+  }
+  .footer .col-title { font-weight: bold; color: #333; margin-bottom: 6px; }
+
+  .note {
+    background: #fff8dc;
+    border: 1px solid #e0d090;
+    font-size: 10px;
+    padding: 4px 8px;
+    margin-top: 8px;
+    display: inline-block;
+  }
+
+  /* localizacao */
+  .local-flex { display: flex; gap: 20px; align-items: stretch; }
+  .local-text { flex: 1; font-size: 12px; line-height: 1.6; }
+  .local-map { flex: 1; height: 160px; }
+
+  /* depoimentos */
+  .depo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .depo-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 10px;
+  }
+  .depo-card .estrelas { color: #999; font-size: 11px; margin-bottom: 6px; }
+  .tbd-tag {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 9px;
+    padding: 2px 6px;
+    margin-left: 8px;
+  }
+
+  /* ctas de secao */
+  .section-cta {
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px dotted #ccc;
+  }
+  .section-cta .cta-copy {
+    font-size: 10px;
+    color: #777;
+    margin-bottom: 8px;
+  }
+  .btn.small {
+    padding: 6px 14px;
+    font-size: 11px;
+  }
+  .btn.link {
+    border: none;
+    text-decoration: underline;
+    background: none;
+    padding: 4px 0;
+  }
+
+  /* convenios v2 */
+  .convenios-principal {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .convenio-logo-box {
+    border: 1px solid #ccc;
+    padding: 16px 24px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 100px;
+  }
+  .parcelamento-linha {
+    text-align: center;
+    font-size: 10px;
+    color: #888;
+    border-top: 1px dashed #ddd;
+    padding-top: 10px;
+  }
+
+  /* mobile */
+  @media (max-width: 640px) {
+    .page { margin: 0; border-left: none; border-right: none; }
+    .header { flex-direction: column; gap: 10px; align-items: flex-start; }
+    .nav { flex-wrap: wrap; gap: 8px 12px; }
+    .hero { flex-direction: column; }
+    .sobre-flex { flex-direction: column; }
+    .numbers-grid { width: 100%; }
+    .diff-grid { grid-template-columns: repeat(2, 1fr); }
+    .servicos-grid { grid-template-columns: repeat(2, 1fr); }
+    .equipe-grid { grid-template-columns: repeat(2, 1fr); }
+    .local-flex { flex-direction: column; }
+    .depo-grid { grid-template-columns: 1fr; }
+    .footer { grid-template-columns: 1fr; }
+    .convenios-principal { gap: 10px; }
+    .btn { width: 100%; text-align: center; }
+    .header-right .btn { width: auto; }
+    .btn.small { width: auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div style="background:#fffbe0; border-bottom:2px dashed #d8c060; padding:8px 24px; font-size:10px; color:#7a6a20; text-align:center;">
+    📱 Redimensione a janela para visualizar o comportamento em mobile — os grids empilham abaixo de 640px
+  </div>
+
+
+  <!-- HEADER -->
+  <div class="block">
+    <div class="label">Header (fixo)</div>
+    <div class="content header">
+      <div class="logo-box">CVM ODONTOLOGIA</div>
+      <div class="nav">
+        <span>Sobre</span>
+        <span>Serviços</span>
+        <span>Equipe</span>
+        <span>Localização</span>
+        <span>Depoimentos</span>
+      </div>
+      <div class="header-right">
+        <span>(11) 2939-5247</span>
+        <span class="btn small">Agendar</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="block">
+    <div class="label">Hero</div>
+    <div class="content hero">
+      <div class="hero-text">
+        <h1>[Headline principal]</h1>
+        <p>[Subheadline reforçando avaliação gratuita via WhatsApp]</p>
+        <div class="btn primary">Avaliação grátis</div>
+      </div>
+      <div class="hero-img placeholder-img" style="width:100%;height:160px;">imagem placeholder<br>(consultório / equipe)</div>
+    </div>
+  </div>
+
+  <!-- SOBRE + NUMBERS -->
+  <div class="block">
+    <div class="label">Sobre + Big Numbers</div>
+    <div class="content sobre-flex">
+      <div class="sobre-text">
+        [Breve texto sobre a clínica — trajetória, missão, proposta de valor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]
+      </div>
+      <div class="numbers-grid">
+        <div class="number-item"><span class="num">[X]+</span><span class="desc">anos de experiência</span></div>
+        <div class="number-item"><span class="num">[X]+</span><span class="desc">pacientes atendidos</span></div>
+        <div class="number-item"><span class="num">[X]</span><span class="desc">profissionais especialistas</span></div>
+        <div class="number-item"><span class="num">[X]</span><span class="desc">convênios aceitos</span></div>
+      </div>
+    </div>
+    <div class="section-cta">
+      <div class="cta-copy">Números que só existem porque cuidamos de verdade</div>
+      <span class="btn small primary">Ver tratamentos</span>
+    </div>
+  </div>
+
+  <!-- DIFERENCIAIS -->
+  <div class="block">
+    <div class="label">Diferenciais</div>
+    <div class="content diff-grid">
+      <div class="diff-item"><div class="icon"></div>Atendimento personalizado</div>
+      <div class="diff-item"><div class="icon"></div>Profissionais qualificados</div>
+      <div class="diff-item"><div class="icon"></div>Ambiente confortável</div>
+      <div class="diff-item"><div class="icon"></div>Fácil acesso</div>
+      <div class="diff-item"><div class="icon"></div>Estacionamento no local</div>
+      <div class="diff-item"><div class="icon"></div>Próximo ao metrô</div>
+    </div>
+    <div class="section-cta">
+      <div class="cta-copy">Quer sentir a diferença no seu próximo atendimento?</div>
+      <span class="btn small primary">Falar no WhatsApp</span>
+    </div>
+  </div>
+
+  <!-- SERVICOS -->
+  <div class="block">
+    <div class="label">Serviços</div>
+    <div class="content servicos-grid">
+      <div class="servico-card destaque">Restaurações<br><span class="badge">PRINCIPAL</span><div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+      <div class="servico-card">Prótese<div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+      <div class="servico-card">Reabilitação Oral<div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+      <div class="servico-card">Implantes<div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+      <div class="servico-card">Endodontia<div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+      <div class="servico-card">Clareamento Dental<div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+      <div class="servico-card">Ortodontia<div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+      <div class="servico-card">Alinhadores<div class="servico-desc">Lorem ipsum dolor sit amet consectetur.</div></div>
+    </div>
+    <div class="section-cta">
+      <div class="cta-copy">Não sabe qual tratamento é ideal pra você?</div>
+      <span class="btn small primary">Avaliação grátis</span>
+    </div>
+  </div>
+
+  <!-- EQUIPE -->
+  <div class="block">
+    <div class="label">Equipe — todos com o mesmo peso, sem carrossel</div>
+    <div class="content equipe-grid">
+      <div class="equipe-card">
+        <div class="equipe-photo placeholder-img">foto</div>
+        <div class="nome">Dra. Cristina Vioti M. Ferraz</div>
+        <div class="cro">CROSP 50.760</div>
+        <div class="esp">Dentística Restauradora e Ortodontia</div>
+      </div>
+      <div class="equipe-card">
+        <div class="equipe-photo placeholder-img">foto</div>
+        <div class="nome">Dra. Kátia Prade</div>
+        <div class="cro">CROSP 50.157</div>
+        <div class="esp">Ortodontia, Dor Orofacial e DTM, Odontologia do Sono</div>
+      </div>
+      <div class="equipe-card">
+        <div class="equipe-photo placeholder-img">foto</div>
+        <div class="nome">Dra. Tâmara S. Damasceno</div>
+        <div class="cro">CROSP 159.426</div>
+        <div class="esp">Clínica Geral</div>
+      </div>
+      <div class="equipe-card">
+        <div class="equipe-photo placeholder-img">foto</div>
+        <div class="nome">Dr. Nilson Issamu Wada</div>
+        <div class="cro">CROSP 47.988</div>
+        <div class="esp">Implantodontia/Cirurgia</div>
+      </div>
+      <div class="equipe-card">
+        <div class="equipe-photo placeholder-img">foto</div>
+        <div class="nome">Dr. Reinaldo Cavalheiro Jr.</div>
+        <div class="cro">CROSP 48.460</div>
+        <div class="esp">Endodontia e Implantodontia</div>
+      </div>
+    </div>
+    <div class="section-cta">
+      <div class="cta-copy">Fale com o especialista certo para o seu caso</div>
+      <span class="btn small primary">Agendar</span>
+    </div>
+  </div>
+
+  <!-- LOCALIZACAO -->
+  <div class="block">
+    <div class="label">Localização</div>
+    <div class="content local-flex">
+      <div class="local-text">
+        <strong>CVM Odontologia</strong><br>
+        Rua Paulo de Faria, 146 — sala 607 — Torre 2<br>
+        CEP 02267-000<br><br>
+        Segunda à sexta-feira<br>
+        Das 9h às 17h
+      </div>
+      <div class="local-map placeholder-img">mapa do Google<br>(iframe embed)</div>
+    </div>
+    <div class="section-cta">
+      <div class="cta-copy">Fica perto de você — vamos te esperar</div>
+      <span class="btn small primary">Agendar visita</span>
+    </div>
+  </div>
+
+  <!-- DEPOIMENTOS -->
+  <div class="block">
+    <div class="label">Depoimentos <span class="tbd-tag">A DEFINIR: Google ou custom</span></div>
+    <div class="content depo-grid">
+      <div class="depo-card">
+        <div class="estrelas">★★★★★</div>
+        [depoimento placeholder]<br>— Nome do paciente
+      </div>
+      <div class="depo-card">
+        <div class="estrelas">★★★★★</div>
+        [depoimento placeholder]<br>— Nome do paciente
+      </div>
+      <div class="depo-card">
+        <div class="estrelas">★★★★★</div>
+        [depoimento placeholder]<br>— Nome do paciente
+      </div>
+    </div>
+    <div class="section-cta">
+      <div class="cta-copy">Seja o próximo sorriso satisfeito</div>
+      <span class="btn small primary">Avaliação grátis</span>
+    </div>
+  </div>
+
+  <!-- CONVENIOS -->
+  <div class="block">
+    <div class="label">Convênios &amp; Pagamento</div>
+    <div class="content">
+      <div class="convenios-principal">
+        <div class="convenio-logo-box">[logo]<br>Porto Seguro</div>
+        <div class="convenio-logo-box">[logo]<br>Odonto Life</div>
+        <div class="convenio-logo-box">[logo]<br>Dental Uni</div>
+      </div>
+      <div class="parcelamento-linha">Também aceitamos particular, com parcelamento disponível</div>
+      <div class="note">Ajuste: logos reais dos convênios em destaque; parcelamento como informação de apoio, abaixo e com menos peso visual</div>
+      <div class="section-cta">
+        <div class="cta-copy">Confira se o seu convênio está aqui</div>
+        <span class="btn small primary">Falar com a recepção</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA FINAL -->
+  <div class="block">
+    <div class="label">CTA Final</div>
+    <div class="content cta-final">
+      <h2>[Reforço da oferta: avaliação gratuita]</h2>
+      <p style="font-size:11px;color:#555;max-width:480px;margin:0 auto 14px;">[Texto de apoio reforçando confiança e urgência — ex: "Agende sua avaliação gratuita e descubra o melhor tratamento para o seu sorriso. Vagas limitadas todo mês."]</p>
+      <div class="btn primary">Agendar avaliação grátis</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="block" style="border-bottom:none;">
+    <div class="label">Footer</div>
+    <div class="content footer">
+      <div>
+        <div class="col-title">CVM Odontologia</div>
+        (11) 2939-5247<br>
+        WhatsApp: (11) 99946-9633
+      </div>
+      <div>
+        <div class="col-title">Endereço</div>
+        Rua Paulo de Faria, 146<br>
+        sala 607 — Torre 2<br>
+        CEP 02267-000<br>
+        Seg-sex, 9h às 17h
+      </div>
+      <div>
+        <div class="col-title">Convênios</div>
+        Porto Seguro, Odonto Life, Dental Uni
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+</body></html>
