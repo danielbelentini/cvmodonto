@@ -15,7 +15,7 @@ export default function Testimonials() {
         />
         {/* Conteúdo de exemplo — a seção será conectada às avaliações reais do
             Google ou a depoimentos curados manualmente (ver decisão em aberto no escopo). */}
-        <div className="mt-12 grid gap-5 sm:grid-cols-3">
+        {/* <div className="mt-12 grid gap-5 sm:grid-cols-3">
           {testimonials.map((item) => (
             <Reveal key={item.name}>
               <figure className="flex h-full flex-col gap-4 rounded-2xl border border-line bg-panel-soft px-6 py-6">
@@ -33,6 +33,11 @@ export default function Testimonials() {
               </figure>
             </Reveal>
           ))}
+        </div> */}
+
+        <div>
+          <script src="https://elfsightcdn.com/platform.js" async></script>
+          <div className="elfsight-app-04c5df65-13ce-4048-9bd7-c2944119a308" data-elfsight-app-lazy></div>
         </div>
 
         <SectionCta copy="Seja o próximo sorriso satisfeito." buttonLabel="Avaliação grátis" />
