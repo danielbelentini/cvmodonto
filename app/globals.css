@@ -8,24 +8,24 @@
   - Tons de marfim/cinza-claro para texto, com contraste AA garantido sobre o fundo escuro
 */
 :root {
-  /* fundos */
-  --color-void: #050607;        /* fundo mais escuro / body */
-  --color-panel: #101314;       /* painéis principais, header */
-  --color-panel-soft: #181c1e;  /* cards, boxes suaves */
-  --color-line: #252a2d;        /* bordas, divisórias */
+  /* Fundos */
+  --color-void: #09090B;      /* fundo mais escuro / body */
+  --color-panel: #141226;     /* painéis principais, header */
+  --color-panel-soft: #1D1830;/* cards, boxes suaves */
+  --color-line: #2B2343;      /* bordas, divisórias */
 
-  /* tipografia */
-  --color-ink: #f5f2ea;         /* texto principal (quase branco) */
-  --color-ink-soft: #c7cdc9;    /* texto secundário */
-  --color-ink-muted: #8d968f;   /* texto descritivo/legendas */
+  /* Tipografia */
+  --color-ink: #F5F2EA;       /* texto principal (quase branco) */
+  --color-ink-soft: #C7CDC9;  /* texto secundário */
+  --color-ink-muted: #8D968F; /* texto descritivo/legendas */
 
-  /* destaques (substituindo o teal) */
-  --color-teal: #c8a24a;      /* agora dourado principal (botões, links de destaque) */
-  --color-teal-dark: #a88332; /* dourado mais escuro (hover, bordas, ícones) */
-  --color-teal-soft: #312715; /* fundo suave com tom de dourado (badges, chips) */
+  /* Roxos de destaque (no lugar do teal) */
+  --color-teal: #A855F7;      /* roxo principal para botões, links de destaque */
+  --color-teal-dark: #7C3AED; /* roxo mais escuro para hover, foco, ícones */
+  --color-teal-soft: #2B1B52; /* fundo suave com roxo (chips, badges, tags) */
 
-  /* dourado institucional */
-  --color-gold: #c9a24b;      /* mantém seu dourado original para logos/detalhes finos */
+  /* Roxo institucional (equivalente ao gold) */
+  --color-gold: #6B35A5;      /* roxo profundo para detalhes de marca, bordas finas */
 }
 
 @theme inline {
