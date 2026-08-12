@@ -51,7 +51,7 @@ export default function Header() {
             {clinic.phoneDisplay}
           </a>
           <Button href={whatsappHref()} size="sm" icon={<WhatsAppIcon className="h-4 w-4" />}>
-            Agendar
+            Agendar agora
           </Button>
         </div>
 

@@ -13,7 +13,7 @@ type ButtonProps = {
 };
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-2xl font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2";
+  "inline-flex items-center justify-center gap-2 rounded-xl font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2";
 
 const variants: Record<string, string> = {
   primary: "bg-teal text-void hover:bg-teal-dark",

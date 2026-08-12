@@ -158,21 +158,21 @@ export const team = [
 // entre widget do Google ou curadoria manual (ver escopo do projeto).
 export const testimonials = [
   {
-    name: "Fernanda A.",
+    name: "Marina Ferraz",
     quote:
-      "Marquei a avaliação pelo WhatsApp e no mesmo dia já tinha um horário. Sensação de cuidado do início ao fim.",
+      "Excelente profissional! A dra. Cristina é atenciosa e gentil, sempre ofecere tratamentos de muita qualidade e os executa com muito capricho. Insubstituível ✨️",
     rating: 5,
   },
   {
-    name: "Ricardo M.",
+    name: "Zoraide Maria",
     quote:
-      "Fiz tratamento de canal com receio e não senti praticamente nada. Equipe explica cada passo antes de fazer.",
+      "Muito boa a experiência de consultar a dra. Cristina. O ambiente é acolhedor e ela é uma ótima profissional.",
     rating: 5,
   },
   {
-    name: "Juliana P.",
+    name: "Magali Ferraz",
     quote:
-      "Troquei de dentista depois de anos adiando o clareamento. Ambiente tranquilo e resultado natural.",
+      "Dra Cristina trabalha com responsabilidade e competência. Eu super indico.",
     rating: 5,
   },
 ];
