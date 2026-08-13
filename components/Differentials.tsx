@@ -19,7 +19,7 @@ export default function Differentials() {
             const Icon = differentialIcons[item.icon];
             return (
               <Reveal key={item.title} className={`delay-[${index * 60}ms]`}>
-                <div className="h-full rounded-2xl border border-line bg-panel px-6 py-7 text-center transition-colors hover:border-teal/50">
+                <div className="h-full rounded-2xl border border-line bg-panel px-6 py-7 text-center">
                   <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-teal/40 text-teal">
                     <Icon className="h-5 w-5" />
                   </span>

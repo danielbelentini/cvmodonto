@@ -21,7 +21,8 @@
 
   /* destaques (substituindo o teal) */
   --color-teal: #c8a24a;      /* agora dourado principal (botões, links de destaque) */
-  --color-teal-dark: #a88332; /* dourado mais escuro (hover, bordas, ícones) */
+  --color-teal-dark: #a88332; /* dourado mais escuro (bordas sutis) */
+  --color-teal-bright: #e8c46b; /* dourado vivo — usado no hover dos botões e links */
   --color-teal-soft: #312715; /* fundo suave com tom de dourado (badges, chips) */
 
   /* dourado institucional */
@@ -38,6 +39,7 @@
   --color-ink-muted: var(--color-ink-muted);
   --color-teal: var(--color-teal);
   --color-teal-dark: var(--color-teal-dark);
+  --color-teal-bright: var(--color-teal-bright);
   --color-teal-soft: var(--color-teal-soft);
   --color-gold: var(--color-gold);
   --font-display: "Fraunces", ui-serif, Georgia, serif;

@@ -32,7 +32,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="text-sm text-ink-soft transition-colors hover:text-teal"
+                    className="text-sm text-ink-soft transition-colors hover:text-teal-bright"
                   >
                     {item.label}
                   </a>
@@ -47,7 +47,7 @@ export default function Footer() {
             </h3>
             <ul className="mt-4 flex flex-col gap-3 text-sm text-ink-soft">
               <li>
-                <a href={clinic.phoneHref} className="flex items-center gap-2 hover:text-teal">
+                <a href={clinic.phoneHref} className="flex items-center gap-2 hover:text-teal-bright">
                   <PhoneIcon className="h-4 w-4 shrink-0" />
                   {clinic.phoneDisplay}
                 </a>
@@ -57,7 +57,7 @@ export default function Footer() {
                   href={`https://wa.me/${clinic.whatsappNumber}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 hover:text-teal"
+                  className="flex items-center gap-2 hover:text-teal-bright"
                 >
                   <WhatsAppIcon className="h-4 w-4 shrink-0" />
                   {clinic.whatsappDisplay}
@@ -79,7 +79,7 @@ export default function Footer() {
               Convênios
             </h3>
             <p className="mt-4 text-sm text-ink-soft leading-relaxed">
-              {partners.join(" · ")}
+              {partners.map((partner) => partner.name).join(" · ")}
             </p>
             <h3 className="mt-6 text-xs font-semibold uppercase tracking-wide text-ink-muted">
               Horário

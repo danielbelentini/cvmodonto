@@ -10,18 +10,24 @@ export default function Partners() {
         <SectionHeader
           eyebrow="Formas de atendimento"
           title="Convênios"
-          subtitle="Atendemos os principais convênios odontológicos da região."
+          subtitle="Trabalhamos com os seguintes convênios odontológicos."
         />
 
         <Reveal>
-          <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-6">
             {partners.map((partner) => (
-              // Placeholder — substituir pela logo real de cada convênio
+              // Placeholder — substituir pela logo real de cada convênio (160x80)
               <div
-                key={partner}
-                className="flex h-20 w-40 items-center justify-center rounded-xl border border-line bg-panel px-4 text-center text-sm font-medium text-ink-soft"
+                key={partner.name}
+                className="flex h-20 w-40 items-center justify-center rounded-xl border border-line bg-panel px-4"
               >
-                {partner}
+                <img
+                  src={partner.logo}
+                  alt={`Convênio ${partner.name}`}
+                  width={160}
+                  height={80}
+                  className="h-full w-full object-contain"
+                />
               </div>
             ))}
           </div>
@@ -32,8 +38,8 @@ export default function Partners() {
         </p>
 
         <SectionCta
-          copy="Confira se o seu convênio está aqui."
-          buttonLabel="Falar com a recepção"
+          copy="Entre em contato com nossa recepção."
+          buttonLabel="Entre em contato conosco"
         />
       </div>
     </section>

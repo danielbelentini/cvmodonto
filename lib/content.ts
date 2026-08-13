@@ -15,8 +15,16 @@ export const clinic = {
     zip: "CEP 02267-000",
   },
   hours: "Segunda a sexta-feira, das 9h às 17h",
-  mapEmbedSrc:
-    "https://www.google.com/maps?q=Rua+Paulo+de+Faria,+146+-+Sala+-+607+-+Torre+2,+S%C3%A3o+Paulo+-+SP,+02267-000&output=embed",
+  // Embed via "cid" (identificador único do local no Google) — abre direto no
+  // pin da CVM Odontologia, e não em uma busca genérica pelo endereço.
+  mapEmbedSrc: "https://www.google.com/maps?cid=14541251694264405240&output=embed",
+  // Página do local no Google Maps (mesmo local do embed acima) — usada para o
+  // link "Veja mais depoimentos no Google" e para abrir a localização em uma nova aba.
+  googleMapsUrl:
+    "https://www.google.com/maps/place/Cvm+odontologia/@-23.4805748,-46.6046355,986m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94cef79bb84f2c97:0xc9cce75f822d4cf8!8m2!3d-23.4805797!4d-46.6020606!16s%2Fg%2F11y2nlwwjk?hl=pt-BR",
+  get googleReviewsHref() {
+    return this.googleMapsUrl;
+  },
 };
 
 export function whatsappHref(message: string = clinic.whatsappMessage) {
@@ -80,77 +88,79 @@ export const services = [
     name: "Restaurações",
     description:
       "Recupera dentes com cárie, fratura ou desgaste, devolvendo função e estética com material de alta durabilidade.",
-    featured: true,
   },
   {
     name: "Prótese",
     description:
       "Substitui dentes ausentes com peças fixas ou removíveis, restaurando mastigação, fala e sorriso.",
-    featured: false,
   },
   {
     name: "Reabilitação Oral",
     description:
       "Trata casos mais complexos combinando diferentes especialidades para reconstruir a saúde bucal por completo.",
-    featured: false,
   },
   {
     name: "Implantes",
     description:
       "Substitui a raiz do dente perdido por um pino de titânio, base sólida para uma prótese natural.",
-    featured: false,
   },
   {
     name: "Endodontia",
     description:
       "Tratamento de canal para eliminar a infecção e preservar o dente, com técnica que reduz o desconforto.",
-    featured: false,
   },
   {
     name: "Clareamento Dental",
     description:
       "Clareia o sorriso com segurança, em sessões no consultório ou com kit para uso supervisionado em casa.",
-    featured: false,
   },
   {
     name: "Ortodontia",
     description:
       "Alinha os dentes com aparelho fixo, corrigindo mordida e posicionamento para uma saúde bucal duradoura.",
-    featured: false,
   },
   {
     name: "Alinhadores",
     description:
       "Alinha o sorriso com placas transparentes e removíveis, discretas para o dia a dia.",
-    featured: false,
   },
 ];
 
+// Fotos placeholder (placehold.co) — quando as fotos reais chegarem:
+// 1. Salve os arquivos em public/images/team/ (ex: public/images/team/dra-cristina-vioti.jpg)
+// 2. Troque o valor de "photo" abaixo pelo caminho local, ex: "/images/team/dra-cristina-vioti.jpg"
+// Nenhuma outra alteração é necessária — o componente Team já lê este campo.
 export const team = [
   {
     name: "Dra. Cristina Vioti Maria Ferraz",
     cro: "CROSP 50.760",
     specialty: "Dentística Restauradora e Ortodontia",
+    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
   },
   {
     name: "Dra. Kátia Prade",
     cro: "CROSP 50.157",
     specialty: "Ortodontia, Dor Orofacial e DTM, Odontologia do Sono",
+    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
   },
   {
     name: "Dra. Tâmara Schirmer Damasceno",
     cro: "CROSP 159.426",
     specialty: "Clínica Geral",
+    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
   },
   {
     name: "Dr. Nilson Issamu Wada",
     cro: "CROSP 47.988",
     specialty: "Implantodontia / Cirurgia",
+    // Substituir pela foto real: public/images/team/dr-nilson-wada.jpg
+    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
   },
   {
     name: "Dr. Reinaldo Cavalheiro Júnior",
     cro: "CROSP 48.460",
     specialty: "Endodontia e Implantodontia",
+    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
   },
 ];
 
@@ -177,4 +187,19 @@ export const testimonials = [
   },
 ];
 
-export const partners = ["Porto Seguro", "Odonto Life", "Dental Uni"];
+// Logos placeholder (imagens web) — substituir cada "logo" pela URL/arquivo da
+// logo real de cada convênio quando disponível. Dimensão alvo: 160x80.
+export const partners = [
+  {
+    name: "Porto Seguro",
+    logo: "https://placehold.co/160x80/181c1e/8d968f?text=Porto+Seguro",
+  },
+  {
+    name: "Odonto Life",
+    logo: "https://placehold.co/160x80/181c1e/8d968f?text=Odonto+Life",
+  },
+  {
+    name: "Dental Uni",
+    logo: "https://placehold.co/160x80/181c1e/8d968f?text=Dental+Uni",
+  },
+];

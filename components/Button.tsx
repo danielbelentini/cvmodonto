@@ -5,7 +5,7 @@ type ButtonProps = {
   href: string;
   children: ReactNode;
   variant?: "primary" | "outline";
-  size?: "md" | "sm";
+  size?: "md" | "sm" | "lg";
   icon?: ReactNode;
   className?: string;
   ariaLabel?: string;
@@ -16,14 +16,15 @@ const base =
   "inline-flex items-center justify-center gap-2 rounded-xl font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2";
 
 const variants: Record<string, string> = {
-  primary: "bg-teal text-void hover:bg-teal-dark",
+  primary: "bg-teal text-void hover:bg-teal-bright",
   outline:
-    "border border-line text-ink hover:border-teal hover:text-teal bg-transparent",
+    "border border-line text-ink hover:border-teal-bright hover:text-teal-bright bg-transparent",
 };
 
 const sizes: Record<string, string> = {
   md: "px-6 py-4 text-[16px]",
   sm: "px-4 py-2 text-sm",
+  lg: "px-9 py-5 text-lg",
 };
 
 export default function Button({

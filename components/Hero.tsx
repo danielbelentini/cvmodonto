@@ -34,16 +34,13 @@ export default function Hero() {
         </div>
 
         <div className="relative">
-          {/* Imagem placeholder — substituir por foto real do consultório/equipe */}
-          <div
-            className="flex aspect-[4/5] w-full items-center justify-center rounded-3xl border border-line bg-panel text-center text-sm text-ink-muted sm:aspect-[5/4] lg:aspect-[4/5]"
-            role="img"
-            aria-label="Imagem placeholder do consultório CVM Odontologia"
-          >
-            Foto do consultório
-            <br />
-            (placeholder)
-          </div>
+          {/* Imagem placeholder (placehold.co) — substituir por foto real do consultório
+              quando disponível, mantendo a proporção do container abaixo. */}
+          <img
+            src="https://placehold.co/800x1000/101314/8d968f?text=Foto+do+consult%C3%B3rio"
+            alt="Consultório da CVM Odontologia em São Paulo"
+            className="aspect-[4/5] w-full rounded-3xl border border-line object-cover sm:aspect-[5/4] lg:aspect-[4/5]"
+          />
 
           {/* Elemento de assinatura: cartão de próxima vaga, no estilo de um comprovante de agendamento */}
           <div className="absolute -bottom-6 left-1/2 w-[86%] -translate-x-1/2 rounded-2xl border border-teal/40 bg-panel-soft px-6 py-4 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)] sm:left-auto sm:right-[-8%] sm:w-64 sm:translate-x-0">

@@ -93,6 +93,33 @@ export function PhoneIcon(props: IconProps) {
   );
 }
 
+export function ChevronLeftIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props} aria-hidden="true">
+      <path d="M15 5 8 12l7 7" />
+    </svg>
+  );
+}
+
+export function ChevronRightIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props} aria-hidden="true">
+      <path d="m9 5 7 7-7 7" />
+    </svg>
+  );
+}
+
+export function GoogleIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" {...props} aria-hidden="true">
+      <path
+        fill="#EA4335"
+        d="M12 10.2v3.9h5.5c-.24 1.4-1.7 4.1-5.5 4.1-3.3 0-6-2.7-6-6.2s2.7-6.2 6-6.2c1.9 0 3.1.8 3.9 1.5l2.6-2.5C16.9 3.2 14.7 2.2 12 2.2 6.9 2.2 2.7 6.4 2.7 12S6.9 21.8 12 21.8c6.9 0 9.6-4.9 9.6-7.4 0-.5-.05-.9-.12-1.3H12Z"
+      />
+    </svg>
+  );
+}
+
 export function MenuIcon(props: IconProps) {
   return (
     <svg {...base} {...props} aria-hidden="true">

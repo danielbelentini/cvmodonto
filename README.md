@@ -58,6 +58,15 @@ devem ser copiados para o servidor (não é necessário Node.js rodando no servi
 3. Garanta que o servidor sirva `index.html` como página inicial.
 4. Pronto — é um site 100% estático (HTML/CSS/JS), sem dependência de Node.js no servidor.
 
+## Pendências de conteúdo (marcadas no código)
+
+- Logo definitiva da clínica (hoje é um placeholder "CVM" no header/rodapé) — `components/Header.tsx` e `components/Footer.tsx`.
+- Fotos reais do consultório, equipe e antes/depois — atualmente placeholders em `components/Hero.tsx` e `components/Team.tsx`.
+- Números de "anos de experiência" e "pacientes atendidos" em `lib/content.ts` (`bigNumbers`), marcados com `+X`.
+- Logos reais dos convênios em `components/Partners.tsx`.
+- Definição entre depoimentos via widget do Google ou curadoria manual — hoje há 3 depoimentos de exemplo em `lib/content.ts` (`testimonials`).
+- Links de redes sociais (ainda não recebidos).
+
 ## Notas técnicas
 
 - Fontes **Lato** (corpo) e **Fraunces** (títulos) são auto-hospedadas via pacotes
