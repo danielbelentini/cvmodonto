@@ -180,9 +180,9 @@ export const testimonials = [
     rating: 5,
   },
   {
-    name: "Magali Ferraz",
+    name: "Edison Gonçalves",
     quote:
-      "Dra Cristina trabalha com responsabilidade e competência. Eu super indico.",
+      "Excelente consultório odontológico, muito bem equipado e do lado do Metrô. Dra Cristina, formada na USP é muito competente e simpática. Recomendo sem sombra de dúvidas.",
     rating: 5,
   },
 ];
@@ -192,14 +192,14 @@ export const testimonials = [
 export const partners = [
   {
     name: "Porto Seguro",
-    logo: "https://placehold.co/160x80/181c1e/8d968f?text=Porto+Seguro",
+    logo: "/images/partners/logo-porto.png",
   },
   {
-    name: "Odonto Life",
-    logo: "https://placehold.co/160x80/181c1e/8d968f?text=Odonto+Life",
+    name: "OdontoLife",
+    logo: "/images/partners/logo-odontolife.png",
   },
   {
     name: "Dental Uni",
-    logo: "https://placehold.co/160x80/181c1e/8d968f?text=Dental+Uni",
+    logo: "/images/partners/logo-dental-uni.png",
   },
 ];

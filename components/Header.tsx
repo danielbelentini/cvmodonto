@@ -35,7 +35,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-void/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-line bg-void/80 backdrop-blur">
       <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-5 py-3 sm:px-8">
         <a
           href="#topo"
