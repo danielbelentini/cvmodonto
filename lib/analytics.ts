@@ -6,7 +6,7 @@
 //    site — o GTM já cuida de carregar o GA4 (e qualquer outra tag de marketing,
 //    como Google Ads/Meta Pixel) por você.
 // 2) Troque o valor abaixo pelo ID do seu container GTM (formato "GTM-XXXXXXX").
-export const GTM_ID = ""; // <- coloque aqui o ID do container, ex: "GTM-ABCD123"
+export const GTM_ID = "GTM-P8WTC8CC"; // <- coloque aqui o ID do container, ex: "GTM-ABCD123"
 
 // Chave usada no localStorage do navegador para lembrar a escolha do visitante
 export const CONSENT_STORAGE_KEY = "cvm-cookie-consent";
