@@ -27,6 +27,10 @@
 
   /* dourado institucional */
   --color-gold: #c9a24b;      /* mantém seu dourado original para logos/detalhes finos */
+
+  /* verde do WhatsApp — usado só no botão flutuante */
+  --color-whatsapp: #25d366;
+  --color-whatsapp-bright: #3fe07d; /* hover mais vivo, sem escurecer */
 }
 
 @theme inline {
@@ -42,6 +46,8 @@
   --color-teal-bright: var(--color-teal-bright);
   --color-teal-soft: var(--color-teal-soft);
   --color-gold: var(--color-gold);
+  --color-whatsapp: var(--color-whatsapp);
+  --color-whatsapp-bright: var(--color-whatsapp-bright);
   --font-display: "Fraunces", ui-serif, Georgia, serif;
   --font-body: "Lato", ui-sans-serif, system-ui, sans-serif;
 }

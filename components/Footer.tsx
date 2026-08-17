@@ -6,7 +6,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-void" aria-label="Rodapé">
+    <footer id="site-footer" className="bg-void" aria-label="Rodapé">
       <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -93,6 +93,12 @@ export default function Footer() {
             © {year} {clinic.name}. Todos os direitos reservados.
           </p>
           <p>Cirurgiões-dentistas responsáveis registrados no CRO-SP.</p>
+          <a
+            href="/politica-de-privacidade"
+            className="underline underline-offset-2 transition-colors hover:text-teal-bright"
+          >
+            Política de Privacidade
+          </a>
         </div>
       </div>
     </footer>
