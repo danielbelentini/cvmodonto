@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: siteUrl,
+    url: "https://www.cvmodonto.com.br",
     siteName: "CVM Odontologia",
     title: "CVM Odontologia | Clínica Odontológica em São Paulo",
     description:

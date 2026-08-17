@@ -34,12 +34,10 @@ export default function Hero() {
         </div>
 
         <div className="relative">
-          {/* Imagem placeholder (placehold.co) — substituir por foto real do consultório
-              quando disponível, mantendo a proporção do container abaixo. */}
           <img
             src="/images/hero/consultorio-01.jpg"
             alt="Consultório da CVM Odontologia em São Paulo"
-            className="aspect-[4/5] w-full rounded-3xl border border-line object-cover sm:aspect-[5/4] lg:aspect-[4/5]"
+            className="aspect-4/5 w-full rounded-3xl border border-line object-cover sm:aspect-5/4 lg:aspect-4/5"
           />
 
           {/* Elemento de assinatura: cartão de próxima vaga, no estilo de um comprovante de agendamento */}
