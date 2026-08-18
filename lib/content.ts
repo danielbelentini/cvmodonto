@@ -134,34 +134,37 @@ export const team = [
   {
     name: "Dra. Cristina Vioti Maria Ferraz",
     cro: "CROSP 50.760",
-    specialty: "Dentística Restauradora e Ortodontia",
-    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
+    specialty: `Especialista em Dentística Restauradora e Ortodontia e responsável Técnica da CVM Odontologia.`,
+    photo: "images/team/dra-cristina-vioti-maria-ferraz.jpg",
+    webp: "images/team/dra-cristina-vioti-maria-ferraz.webp",
   },
   {
     name: "Dra. Kátia Prade",
     cro: "CROSP 50.157",
     specialty: "Ortodontia, Dor Orofacial e DTM, Odontologia do Sono",
-    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
+    photo: "images/team/dra-katia-prade.jpg",
+    webp: "images/team/dra-katia-prade.webp",
   },
   {
     name: "Dra. Tâmara Schirmer Damasceno",
     cro: "CROSP 159.426",
     specialty: "Clínica Geral",
-    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
+    photo: "images/team/dra-tamara-schirmer-damasceno.jpg",
+    webp: "images/team/dra-tamara-schirmer-damasceno.webp",
   },
   {
     name: "Dr. Nilson Issamu Wada",
     cro: "CROSP 47.988",
-    specialty: "Implantodontia / Cirurgia",
-    // Substituir pela foto real: public/images/team/dr-nilson-wada.jpg
-    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
+    specialty: "Cirurgia e Implantodontia",
+    photo: "images/team/dr-nilson-issamu-wada.jpg",
+    webp: "images/team/dr-nilson-issamu-wada.webp",
   },
-  {
-    name: "Dr. Reinaldo Cavalheiro Júnior",
-    cro: "CROSP 48.460",
-    specialty: "Endodontia e Implantodontia",
-    photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
-  },
+  // {
+  //   name: "Dr. Reinaldo Cavalheiro Júnior",
+  //   cro: "CROSP 48.460",
+  //   specialty: "Endodontia e Implantodontia",
+  //   photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
+  // },
 ];
 
 // Depoimentos de exemplo — conteúdo fictício de placeholder até a definição
