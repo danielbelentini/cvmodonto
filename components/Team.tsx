@@ -10,7 +10,7 @@ export default function Team() {
         <SectionHeader
           eyebrow="Quem cuida de você"
           title="Nossa Equipe"
-          subtitle="Cinco especialistas, cada um com sua área de atuação — todos com o mesmo compromisso com o seu tratamento."
+          subtitle="Seis especialistas, cada um com sua área de atuação — todos com o mesmo compromisso com o seu tratamento."
         />
 
         {/* 3 cards na fileira de cima, 2 centralizadas embaixo — todos com a mesma largura.

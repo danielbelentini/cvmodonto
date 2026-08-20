@@ -45,8 +45,9 @@ export default function About() {
 
         <SectionCta
           copy="Números que só existem porque cuidamos de verdade."
-          buttonLabel="Ver tratamentos"
-          message="Olá! Quero conhecer os tratamentos da CVM Odontologia."
+          buttonLabel="Nossas especialidades"
+          href="#servicos"
+          showIcon={false}
         />
       </div>
     </section>

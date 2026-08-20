@@ -141,7 +141,7 @@ export const team = [
   {
     name: "Dra. Kátia Prade",
     cro: "CROSP 50.157",
-    specialty: "Ortodontia, Dor Orofacial e DTM, Odontologia do Sono",
+    specialty: "Especialista em Ortodontia, Dor Orofacial e DTM, Odontologia do Sono",
     photo: "images/team/dra-katia-prade.jpg",
     webp: "images/team/dra-katia-prade.webp",
   },
@@ -155,7 +155,7 @@ export const team = [
   {
     name: "Dr. Nilson Issamu Wada",
     cro: "CROSP 47.988",
-    specialty: "Cirurgia e Implantodontia",
+    specialty: "Especialista em Cirurgia e Implantodontia",
     photo: "images/team/dr-nilson-issamu-wada.jpg",
     webp: "images/team/dr-nilson-issamu-wada.webp",
   },
