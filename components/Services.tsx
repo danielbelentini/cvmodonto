@@ -28,7 +28,7 @@ export default function Services() {
 
         <SectionCta
           copy="Não sabe qual tratamento é ideal para você?"
-          buttonLabel="Avaliação grátis"
+          buttonLabel="Agendar sua avaliação"
         />
       </div>
     </section>

@@ -63,7 +63,7 @@ export default function Team() {
 
         <SectionCta
           copy="Fale com o especialista certo para o seu caso."
-          buttonLabel="Agendar um especialista"
+          buttonLabel="Agendar agora"
         />
       </div>
     </section>

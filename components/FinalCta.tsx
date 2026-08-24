@@ -23,9 +23,8 @@ export default function FinalCta() {
           Seu sorriso não precisa esperar
         </h2>
         <p className="max-w-xl text-ink-soft leading-relaxed">
-          Agende agora sua avaliação gratuita e descubra o melhor caminho para o
-          seu tratamento. É rápido, sem compromisso e direto pelo WhatsApp com
-          nossa recepção.
+          Agende agora sua avaliação conosco e descubra o melhor caminho para o
+          seu tratamento. É rápido e direto pelo WhatsApp.
         </p>
         <Button
           href={whatsappHref()}
@@ -33,7 +32,7 @@ export default function FinalCta() {
           icon={<WhatsAppIcon className="h-5 w-5" />}
           className="mt-2"
         >
-          Agendar avaliação grátis
+          Agende a sua avaliação!
         </Button>
       </div>
     </section>

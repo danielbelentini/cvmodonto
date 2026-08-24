@@ -39,7 +39,7 @@ export default function Partners() {
 
         <SectionCta
           copy="Entre em contato com nossa recepção."
-          buttonLabel="Entre em contato conosco"
+          buttonLabel="Agende sua avaliação"
         />
       </div>
     </section>

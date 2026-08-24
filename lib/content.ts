@@ -40,8 +40,8 @@ export const nav = [
 ];
 
 export const bigNumbers = [
-  { value: "+ 30", label: "anos de experiência", pending: true },
-  { value: "+ 10.000", label: "pacientes atendidos", pending: true },
+  { value: "+30", label: "anos de experiência", pending: true },
+  { value: "+8.000", label: "pacientes atendidos", pending: true },
   { value: "5", label: "especialistas dedicados", pending: false },
   { value: "3", label: "convênios aceitos", pending: false },
 ];

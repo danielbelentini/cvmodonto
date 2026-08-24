@@ -48,13 +48,13 @@ export default function Testimonials() {
                 1024: { slidesPerView: 3, spaceBetween: 20, autoplay: false },
               }}
               pagination={{ clickable: true }}
-              className="!pb-12 sm:px-10"
+              className="pb-12 sm:px-10"
             >
               {testimonials.map((item) => (
                 <SwiperSlide key={item.name} className="h-auto">
                   {/* Altura mínima fixa (calculada a partir do maior depoimento) para
                       que nenhum card mude de tamanho ao trocar de slide */}
-                  <figure className="flex h-full min-h-[260px] flex-col gap-4 rounded-2xl border border-line bg-panel-soft px-6 py-6">
+                  <figure className="flex h-full min-h-55 flex-col gap-4 rounded-2xl border border-line bg-panel-soft px-6 py-6">
                     <div className="flex gap-1 text-gold" aria-hidden="true">
                       {Array.from({ length: item.rating }).map((_, i) => (
                         <StarIcon key={i} className="h-4 w-4" />
@@ -104,7 +104,7 @@ export default function Testimonials() {
           </a>
         </div>
 
-        <SectionCta copy="Seja o próximo sorriso satisfeito." buttonLabel="Avaliação grátis" />
+        <SectionCta copy="Seja o próximo sorriso satisfeito." buttonLabel="Fale conosco" />
       </div>
     </section>
   );
