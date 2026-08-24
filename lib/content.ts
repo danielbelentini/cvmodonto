@@ -68,7 +68,7 @@ export const differentials = [
   {
     title: "Fácil acesso",
     description:
-      "Localização de fácil chegada, pensada para caber na sua rotina sem complicação.",
+      "A poucos passos do metrô e terminal de ônibus.",
     icon: "map-pin",
   },
   {
@@ -97,7 +97,7 @@ export const services = [
   {
     name: "Reabilitação Oral",
     description:
-      "Trata casos mais complexos combinando diferentes especialidades para reconstruir a saúde bucal por completo.",
+      "Trata casos mais complexos combinando diferentes especialidades para restaurar a saúde bucal por completo.",
   },
   {
     name: "Implantes",
@@ -122,7 +122,7 @@ export const services = [
   {
     name: "Alinhadores",
     description:
-      "Alinha o sorriso com placas transparentes e removíveis, discretas para o dia a dia.",
+      " Alinhamento dental com aparelhos fixos ou removíveis, corrigindo a mordida e restaurando a  estética do sorriso.",
   },
 ];
 
@@ -171,15 +171,15 @@ export const team = [
 // entre widget do Google ou curadoria manual (ver escopo do projeto).
 export const testimonials = [
   {
-    name: "Marina Ferraz",
+    name: "Mari Machado",
     quote:
-      "Excelente profissional! A dra. Cristina é atenciosa e gentil, sempre ofecere tratamentos de muita qualidade e os executa com muito capricho. Insubstituível ✨️",
+      "Excelente profissional, consultório impecável. Recomendo.",
     rating: 5,
   },
   {
-    name: "Zoraide Maria",
+    name: "Beatriz Thereza Oliveira",
     quote:
-      "Muito boa a experiência de consultar a dra. Cristina. O ambiente é acolhedor e ela é uma ótima profissional.",
+      "O consultório é ótimo, assim como o atendimento. Adorei, recomendo !!",
     rating: 5,
   },
   {
