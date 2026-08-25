@@ -8,7 +8,7 @@ export const clinic = {
   whatsappDisplay: "(11) 99946-9633",
   whatsappNumber: "5511999469633",
   whatsappMessage:
-    "Olá! Vim pelo site e gostaria de agendar minha avaliação gratuita na CVM Odontologia.",
+    "Olá! Vim pelo site e gostaria de agendar minha avaliação na CVM Odontologia.",
   address: {
     line1: "Rua Paulo de Faria, 146 — sala 607, Torre 2",
     city: "São Paulo - SP",
@@ -166,12 +166,13 @@ export const team = [
     photo: "images/team/dra-carla-buono-dos-santos.jpg",
     webp: "images/team/dra-carla-buono-dos-santos.webp",
   },
-  // {
-  //   name: "Dr. Reinaldo Cavalheiro Júnior",
-  //   cro: "CROSP 48.460",
-  //   specialty: "Endodontia e Implantodontia",
-  //   photo: "https://placehold.co/400x500/181c1e/8d968f?text=Foto",
-  // },
+  {
+    name: "Dr. Reinaldo Cavalheiro Júnior",
+    cro: "CROSP 48.460",
+    specialty: "Especialista em Endodontia e Implantodontia",
+    photo: "images/team/dummy.jpg",
+    webp: "images/team/dummy.webp",
+  },
 ];
 
 // Depoimentos de exemplo — conteúdo fictício de placeholder até a definição

@@ -16,7 +16,6 @@ export default function Partners() {
         <Reveal>
           <div className="mt-12 flex flex-wrap items-center justify-center gap-6">
             {partners.map((partner) => (
-              // Placeholder — substituir pela logo real de cada convênio (160x80)
               <div
                 key={partner.name}
                 className="flex h-20 w-40 items-center justify-center rounded-xl border border-line bg-panel px-4"

@@ -16,22 +16,12 @@ export default function Team() {
         {/* 3 cards na fileira de cima, 2 centralizadas embaixo — todos com a mesma largura.
             Grade de 6 colunas no desktop: cada card ocupa 2 colunas; os dois últimos
             recebem um deslocamento para ficarem centralizados na segunda fileira. */}
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-6 lg:gap-10">
-          {team.map((member, index) => (
-            <Reveal
-              key={member.cro}
-              className={`lg:col-span-2 ${index === 3 ? "lg:col-start-2" : ""} ${
-                index === 4 ? "lg:col-start-4" : ""
-              }`}
-            >
-        {/* <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-6 lg:gap-10">
-          {team.map((member, index) => (
-            <Reveal
-              key={member.cro}
-              className={`lg:col-span-2 ${
-                index % 2 === 0 ? "lg:col-start-2" : ""
-              }`}
-            > */}
+                {/* Grade simples de 3 colunas — com os 6 integrantes da equipe, isso já
+            resulta em 3 cards na fileira de cima e 3 embaixo, todos com a
+            mesma largura, sem precisar de nenhum ajuste manual de posição. */}
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10">
+          {team.map((member) => (
+            <Reveal key={member.cro}>
               <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-panel">
                 {/* Foto placeholder (placehold.co) — enquadramento do peito para cima.
                     Proporção 4:5 reservada para caber a imagem inteira. As URLs de
