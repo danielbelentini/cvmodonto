@@ -159,6 +159,13 @@ export const team = [
     photo: "images/team/dr-nilson-issamu-wada.jpg",
     webp: "images/team/dr-nilson-issamu-wada.webp",
   },
+  {
+    name: "Dra. Carla Buono dos Santos",
+    cro: "CROSP 135.164",
+    specialty: "Clínica Geral",
+    photo: "images/team/dra-carla-buono-dos-santos.jpg",
+    webp: "images/team/dra-carla-buono-dos-santos.webp",
+  },
   // {
   //   name: "Dr. Reinaldo Cavalheiro Júnior",
   //   cro: "CROSP 48.460",
