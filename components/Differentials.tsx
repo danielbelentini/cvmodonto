@@ -38,6 +38,7 @@ export default function Differentials() {
         <SectionCta
           copy="Quer sentir a diferença no seu próximo atendimento?"
           buttonLabel="Falar no WhatsApp"
+          gtmId="whatsapp_diferenciais"
         />
       </div>
     </section>

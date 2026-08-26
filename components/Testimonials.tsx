@@ -104,7 +104,7 @@ export default function Testimonials() {
           </a>
         </div>
 
-        <SectionCta copy="Seja o próximo sorriso satisfeito." buttonLabel="Fale conosco" />
+        <SectionCta copy="Seja o próximo sorriso satisfeito." buttonLabel="Fale conosco" gtmId="whatsapp_depoimentos" />
       </div>
     </section>
   );

@@ -54,6 +54,7 @@ export default function Team() {
         <SectionCta
           copy="Fale com o especialista certo para o seu caso."
           buttonLabel="Agendar agora"
+          gtmId="whatsapp_equipe"
         />
       </div>
     </section>

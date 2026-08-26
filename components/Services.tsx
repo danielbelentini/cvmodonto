@@ -29,6 +29,7 @@ export default function Services() {
         <SectionCta
           copy="Não sabe qual tratamento é ideal para você?"
           buttonLabel="Agendar sua avaliação"
+          gtmId="whatsapp_tratamentos"
         />
       </div>
     </section>

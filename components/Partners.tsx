@@ -39,6 +39,7 @@ export default function Partners() {
         <SectionCta
           copy="Entre em contato com nossa recepção."
           buttonLabel="Agende sua avaliação"
+          gtmId="whatsapp_convenios"
         />
       </div>
     </section>

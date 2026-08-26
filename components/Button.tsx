@@ -10,6 +10,7 @@ type ButtonProps = {
   className?: string;
   ariaLabel?: string;
   external?: boolean;
+  gtmId?: string;
 };
 
 const base =
@@ -33,6 +34,7 @@ export default function Button({
   variant = "primary",
   size = "md",
   icon,
+  gtmId,
   className = "",
   ariaLabel,
   external = true,
@@ -46,7 +48,8 @@ export default function Button({
         target={href.startsWith("http") ? "_blank" : undefined}
         rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
         className={classes}
-        aria-label={ariaLabel}
+        aria-label={ariaLabel} 
+        data-gtm-id={gtmId}
       >
         {icon}
         {children}

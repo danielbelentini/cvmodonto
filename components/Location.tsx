@@ -52,6 +52,7 @@ export default function Location() {
                 href={whatsappHref("Olá! Vamos agendar minha visita à CVM Odontologia?")}
                 icon={<WhatsAppIcon className="h-4 w-4" />}
                 className="mt-2 w-fit"
+                gtmId="whatsapp_localizacao"
               >
                 Agendar visita
               </Button>
@@ -62,7 +63,7 @@ export default function Location() {
               src={clinic.mapEmbedSrc}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="h-full min-h-[320px] w-full border-0 grayscale invert-[0.92] contrast-[0.9]"
+              className="h-full min-h-80 w-full border-0 invert-[0.92] contrast-[0.9]"
             />
           </div>
         </Reveal>

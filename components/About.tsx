@@ -48,6 +48,7 @@ export default function About() {
           buttonLabel="Nossas especialidades"
           href="#servicos"
           showIcon={false}
+          gtmId="cta_sobre"
         />
       </div>
     </section>
