@@ -40,6 +40,7 @@ export default function WhatsAppFloatingButton() {
         className={`fixed right-6 bottom-6 z-50 hidden h-16 w-16 items-center justify-center rounded-full bg-whatsapp text-white shadow-lg shadow-black/30 transition-all duration-300 hover:bg-whatsapp-bright sm:flex ${
           hidden ? "pointer-events-none translate-y-4 opacity-0" : "opacity-100"
         }`}
+        id="click_whatsapp"
       >
         <WhatsAppIcon className="h-8 w-8" />
       </a>
@@ -50,7 +51,7 @@ export default function WhatsAppFloatingButton() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Agendar pelo WhatsApp"
-        className={`fixed inset-x-0 bottom-0 z-50 flex min-h-[52px] items-center justify-center bg-whatsapp px-5 text-base font-semibold text-white transition-all duration-300 hover:bg-whatsapp-bright sm:hidden ${
+        className={`fixed inset-x-0 bottom-0 z-50 flex min-h-13 items-center justify-center bg-whatsapp px-5 text-base font-semibold text-white transition-all duration-300 hover:bg-whatsapp-bright sm:hidden ${
           hidden ? "pointer-events-none translate-y-full opacity-0" : "opacity-100"
         }`}
       >
