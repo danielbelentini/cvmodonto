@@ -10,13 +10,17 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Image
-              src="/images/logo-cvm.png"
-              alt={clinic.name}
-              width={170}
-              height={50}
-              className="h-9 w-auto"
-            />
+            <picture>
+              <source srcSet="/images/logo-cvm-footer.webp" type="image/webp" />
+              <img
+                src="/images/logo-cvm-footer.png"
+                alt={clinic.name}
+                width={170}
+                height={50}
+                loading="lazy"
+                className="h-29 w-auto"
+              />
+            </picture>
             <p className="mt-4 text-sm text-ink-muted leading-relaxed">
               Odontologia completa com especialistas dedicados a cada etapa do
               seu tratamento.

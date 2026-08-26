@@ -5,8 +5,8 @@ export const clinic = {
   name: "CVM Odontologia",
   phoneDisplay: "(11) 2939-5247",
   phoneHref: "tel:+551129395247",
-  whatsappDisplay: "(11) 99946-9633",
-  whatsappNumber: "5511999469633",
+  whatsappDisplay: "(11) 91636-1609",
+  whatsappNumber: "5511916361609",
   whatsappMessage:
     "Olá! Vim pelo site e gostaria de agendar minha avaliação na CVM Odontologia.",
   address: {

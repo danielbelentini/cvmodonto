@@ -18,15 +18,20 @@ const siteUrl = "https://www.cvmodontologia.com.br";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "CVM Odontologia | Clínica Odontológica em São Paulo",
+  title: "CVM Odontologia | Dentista no Tucuruvi - São Paulo",
   description:
-    "Restaurações, implantes, ortodontia, endodontia e mais. Agende sua avaliação gratuita pelo WhatsApp e conheça a equipe da CVM Odontologia em São Paulo.",
+    "Restaurações, próteses, implantes, ortodontia, clareamento e mais. Agende sua avaliação gratuita na CVM Odontologia, Zona Norte de São Paulo.",
   keywords: [
-    "dentista São Paulo",
-    "clínica odontológica",
+    "dentista Tucuruvi",
+    "dentista Zona Norte SP",
+    "clínica odontológica São Paulo",
+    "consultório odontológico Tucuruvi",
     "restauração dentária",
+    "prótese dentária",
+    "reabilitação oral",
     "implante dentário",
     "ortodontia",
+    "alinhadores dentários",
     "clareamento dental",
     "endodontia",
     "CVM Odontologia",

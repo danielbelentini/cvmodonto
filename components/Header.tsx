@@ -42,14 +42,18 @@ export default function Header() {
           className="flex items-center"
           aria-label={`${clinic.name} — página inicial`}
         >
-          <Image
-            src="/images/logo-cvm.png"
-            alt={clinic.name}
-            width={170}
-            height={50}
-            priority
-            className="h-9 w-auto sm:h-10"
-          />
+          
+          <picture>
+            <source srcSet="/images/logo-cvm-header.webp" type="image/webp" />
+            <img
+              src="/images/logo-cvm-header.png"
+              alt={clinic.name}
+              width={170}
+              height={50}
+              fetchPriority="high"
+              className="h-9 w-auto sm:h-12"
+            />
+          </picture>
         </a>
 
         <nav
@@ -81,7 +85,7 @@ export default function Header() {
             <PhoneIcon className="h-4 w-4" />
             {clinic.phoneDisplay}
           </a>
-          <Button href={whatsappHref()} size="sm" icon={<WhatsAppIcon className="h-4 w-4 click-whatsapp" />}>
+          <Button href={whatsappHref()} size="sm" className="click-whatsapp" icon={<WhatsAppIcon className="h-4 w-4" />}>
             Agendar agora
           </Button>
         </div>
