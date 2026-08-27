@@ -27,7 +27,7 @@ export default function Hero() {
             <Button href={whatsappHref()} icon={<WhatsAppIcon className="h-4 w-4" />} gtmId="whatsapp_hero">
               Faça já sua avaliação
             </Button>
-            <Button href="#servicos" variant="outline" external={false}>
+            <Button href="#servicos" variant="outline" external={false} gtmId="tratamentos_hero">
               Ver especialidades
             </Button>
           </div>
