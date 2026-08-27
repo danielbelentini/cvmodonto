@@ -58,7 +58,7 @@ export default function Button({
   }
 
   return (
-    <Link href={href} className={classes} aria-label={ariaLabel}>
+    <Link href={href} className={classes} aria-label={ariaLabel} data-gtm-id={gtmId}>
       {icon}
       {children}
     </Link>
