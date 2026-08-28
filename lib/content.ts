@@ -169,7 +169,7 @@ export const team = [
   {
     name: "Dr. Reinaldo Cavalheiro Júnior",
     cro: "CROSP 48.460",
-    specialty: "Especialista em Endodontia e Implantodontia",
+    specialty: "Especialista em Endodontia",
     photo: "images/team/dra-reinaldo-cavalheiro-junior.jpg",
     webp: "images/team/dr-reynaldo-.webp",
   },
