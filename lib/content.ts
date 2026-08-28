@@ -14,7 +14,7 @@ export const clinic = {
     city: "São Paulo - SP",
     zip: "CEP 02267-000",
   },
-  hours: "Segunda a sexta-feira, das 9h às 17h",
+  hours: "Segunda a sexta-feira, das 9h às 18h",
   // Embed via "cid" (identificador único do local no Google) — abre direto no
   // pin da CVM Odontologia, e não em uma busca genérica pelo endereço.
   mapEmbedSrc: "https://www.google.com/maps?cid=14541251694264405240&output=embed",
@@ -170,8 +170,8 @@ export const team = [
     name: "Dr. Reinaldo Cavalheiro Júnior",
     cro: "CROSP 48.460",
     specialty: "Especialista em Endodontia e Implantodontia",
-    photo: "images/team/dummy.jpg",
-    webp: "images/team/dummy.webp",
+    photo: "images/team/dra-reinaldo-cavalheiro-junior.jpg",
+    webp: "images/team/dr-reynaldo-.webp",
   },
 ];
 
