@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "CVM Odontologia | Dentista no Tucuruvi - São Paulo",
   description:
-    "Restaurações, próteses, implantes, ortodontia, clareamento e mais. Agende sua avaliação gratuita na CVM Odontologia, Zona Norte de São Paulo.",
+    "Restaurações, próteses, implantes, ortodontia, clareamento e mais. Agende sua avaliação na CVM Odontologia, Tucuruvi em São Paulo.",
   keywords: [
     "dentista Tucuruvi",
     "dentista Zona Norte SP",
@@ -42,9 +42,9 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: siteUrl,
     siteName: "CVM Odontologia",
-    title: "CVM Odontologia | Clínica Odontológica em São Paulo",
+    title: "CVM Odontologia | Dentista no Tucuruvi - São Paulo",
     description:
-      "Especialistas em restaurações, implantes, ortodontia e mais. Agende sua avaliação gratuita pelo WhatsApp.",
+      "Restaurações, próteses, implantes, ortodontia, clareamento e mais. Agende sua avaliação na CVM Odontologia, Tucuruvi em São Paulo.",
   },
   robots: {
     index: true,
