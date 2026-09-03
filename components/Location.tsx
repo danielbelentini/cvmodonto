@@ -11,7 +11,7 @@ export default function Location() {
         <SectionHeader
           eyebrow="Como chegar"
           title="Localização"
-          subtitle="Fácil acesso, estacionamento no local e a poucos minutos do metrô."
+          subtitle="Estamos no Tucuruvi, zona norte de São Paulo — fácil acesso, estacionamento no local e a poucos minutos do Metrô Tucuruvi."
         />
 
         <Reveal>
@@ -25,7 +25,9 @@ export default function Location() {
                   <MapPinIcon className="mt-1 h-5 w-5 shrink-0 text-teal" />
                   <div>
                     <p className="text-ink">{clinic.address.line1}</p>
-                    <p className="text-ink-soft">{clinic.address.city}</p>
+                    <p className="text-ink-soft">
+                      {clinic.address.neighborhood} — {clinic.address.city}
+                    </p>
                     <p className="text-ink-muted text-sm">{clinic.address.zip}</p>
                   </div>
                 </div>

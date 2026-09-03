@@ -12,10 +12,11 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 sm:px-8 sm:py-28 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div className="flex flex-col gap-6">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-            Odontologia em São Paulo
+            Dentista no Tucuruvi, São Paulo
           </span>
           <h1 className="max-w-xl text-4xl font-normal leading-[1.15] sm:text-5xl">
-            Um sorriso saudável começa com uma equipe em quem você confia
+            Um sorriso saudável começa com uma equipe em quem você confia, aqui
+            no Tucuruvi
           </h1>
           <p className="max-w-lg text-lg text-ink-soft leading-relaxed">
             Na CVM Odontologia você encontra especialistas para cada etapa do seu

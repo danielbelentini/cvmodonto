@@ -13,15 +13,17 @@ export default function About() {
                 Sobre a clínica
               </span>
               <h2 id="sobre-titulo" className="text-3xl sm:text-4xl font-normal leading-tight">
-                Cuidado odontológico completo, do primeiro exame à manutenção do sorriso
+                Cuidado odontológico completo no Tucuruvi, do primeiro exame à
+                manutenção do sorriso
               </h2>
               <p className="text-ink-soft leading-relaxed">
-                A CVM Odontologia reúne especialistas de diferentes áreas em um único
-                endereço, para que você não precise procurar um novo profissional a
-                cada etapa do tratamento. Da avaliação inicial aos cuidados de
-                manutenção, cada consulta é conduzida com atenção ao seu histórico,
-                seus receios e seus objetivos — sempre com transparência sobre
-                diagnóstico, prazos e valores.
+                No Tucuruvi, zona norte de São Paulo, a CVM Odontologia reúne
+                especialistas de diferentes áreas em um único endereço, para
+                que você não precise procurar um novo profissional a cada
+                etapa do tratamento. Da avaliação inicial aos cuidados de
+                manutenção, cada consulta é conduzida com atenção ao seu
+                histórico, seus receios e seus objetivos — sempre com
+                transparência sobre diagnóstico, prazos e valores.
               </p>
             </div>
 

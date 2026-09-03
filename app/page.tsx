@@ -9,10 +9,12 @@ import Partners from "@/components/Partners";
 import Location from "@/components/Location";
 import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
+import StructuredData from "@/components/StructuredData";
 
 export default function Home() {
   return (
     <>
+      <StructuredData />
       <Header />
       <main>
         <Hero />

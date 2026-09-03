@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Política de Privacidade | CVM Odontologia",
   description:
     "Como a CVM Odontologia coleta, usa e protege seus dados, incluindo o uso de cookies de mensuração (Google Analytics e Google Tag Manager), em conformidade com a LGPD.",
+  alternates: {
+    canonical: "/politica-de-privacidade/",
+  },
   robots: { index: true, follow: true },
 };
 

@@ -72,6 +72,8 @@ export default function Footer() {
                 <span>
                   {clinic.address.line1}
                   <br />
+                  {clinic.address.neighborhood} — {clinic.address.city}
+                  <br />
                   {clinic.address.zip}
                 </span>
               </li>

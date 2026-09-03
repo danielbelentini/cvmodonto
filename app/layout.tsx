@@ -37,6 +37,9 @@ export const metadata: Metadata = {
     "CVM Odontologia",
   ],
   authors: [{ name: "CVM Odontologia" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "pt_BR",
@@ -45,6 +48,21 @@ export const metadata: Metadata = {
     title: "CVM Odontologia | Dentista no Tucuruvi - São Paulo",
     description:
       "Restaurações, próteses, implantes, ortodontia, clareamento e mais. Agende sua avaliação na CVM Odontologia, Tucuruvi em São Paulo.",
+    images: [
+      {
+        url: "/images/og-cvm-odontologia.png",
+        width: 1200,
+        height: 630,
+        alt: "CVM Odontologia",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CVM Odontologia | Dentista no Tucuruvi - São Paulo",
+    description:
+      "Restaurações, próteses, implantes, ortodontia, clareamento e mais. Agende sua avaliação na CVM Odontologia, Tucuruvi em São Paulo.",
+    images: ["/images/og-cvm-odontologia.png"],
   },
   robots: {
     index: true,

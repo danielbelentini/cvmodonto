@@ -11,9 +11,13 @@ export const clinic = {
     "Olá! Vim pelo site e gostaria de agendar minha avaliação na CVM Odontologia.",
   address: {
     line1: "Rua Paulo de Faria, 146 — sala 607, Torre 2",
+    neighborhood: "Tucuruvi",
     city: "São Paulo - SP",
     zip: "CEP 02267-000",
   },
+  // Mesmas coordenadas usadas no embed do Google Maps abaixo — usadas também
+  // nos dados estruturados (JSON-LD) da página.
+  geo: { latitude: -23.4805797, longitude: -46.6020606 },
   hours: "Segunda a sexta-feira, das 9h às 18h",
   // Embed via "cid" (identificador único do local no Google) — abre direto no
   // pin da CVM Odontologia, e não em uma busca genérica pelo endereço.
@@ -68,7 +72,7 @@ export const differentials = [
   {
     title: "Fácil acesso",
     description:
-      "A poucos passos do metrô e terminal de ônibus.",
+      "A poucos passos do Metrô Tucuruvi e do terminal de ônibus.",
     icon: "map-pin",
   },
   {
@@ -135,43 +139,43 @@ export const team = [
     name: "Dra. Cristina Vioti Maria Ferraz",
     cro: "CROSP 50.760",
     specialty: `Especialista em Dentística Restauradora e Ortodontia e responsável Técnica da CVM Odontologia.`,
-    photo: "images/team/dra-cristina-vioti-maria-ferraz.jpg",
-    webp: "images/team/dra-cristina-vioti-maria-ferraz.webp",
+    photo: "/images/team/dra-cristina-vioti-maria-ferraz.jpg",
+    webp: "/images/team/dra-cristina-vioti-maria-ferraz.webp",
   },
   {
     name: "Dra. Kátia Prade",
     cro: "CROSP 50.157",
     specialty: "Especialista em Ortodontia, Dor Orofacial e DTM, Odontologia do Sono",
-    photo: "images/team/dra-katia-prade.jpg",
-    webp: "images/team/dra-katia-prade.webp",
+    photo: "/images/team/dra-katia-prade.jpg",
+    webp: "/images/team/dra-katia-prade.webp",
   },
   {
     name: "Dra. Tâmara Schirmer Damasceno",
     cro: "CROSP 159.426",
     specialty: "Clínica Geral",
-    photo: "images/team/dra-tamara-schirmer-damasceno.jpg",
-    webp: "images/team/dra-tamara-schirmer-damasceno.webp",
+    photo: "/images/team/dra-tamara-schirmer-damasceno.jpg",
+    webp: "/images/team/dra-tamara-schirmer-damasceno.webp",
   },
   {
     name: "Dr. Nilson Issamu Wada",
     cro: "CROSP 47.988",
     specialty: "Especialista em Cirurgia e Implantodontia",
-    photo: "images/team/dr-nilson-issamu-wada.jpg",
-    webp: "images/team/dr-nilson-issamu-wada.webp",
+    photo: "/images/team/dr-nilson-issamu-wada.jpg",
+    webp: "/images/team/dr-nilson-issamu-wada.webp",
   },
   {
     name: "Dra. Carla Buono dos Santos",
     cro: "CROSP 135.164",
     specialty: "Clínica Geral",
-    photo: "images/team/dra-carla-buono-dos-santos.jpg",
-    webp: "images/team/dra-carla-buono-dos-santos.webp",
+    photo: "/images/team/dra-carla-buono-dos-santos.jpg",
+    webp: "/images/team/dra-carla-buono-dos-santos.webp",
   },
   {
     name: "Dr. Reinaldo Cavalheiro Júnior",
     cro: "CROSP 48.460",
     specialty: "Especialista em Endodontia",
-    photo: "images/team/dra-reinaldo-cavalheiro-junior.jpg",
-    webp: "images/team/dr-reynaldo-.webp",
+    photo: "/images/team/dra-reinaldo-cavalheiro-junior.jpg",
+    webp: "/images/team/dra-reinaldo-cavalheiro-junior.webp",
   },
 ];
 
