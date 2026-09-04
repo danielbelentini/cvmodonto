@@ -126,7 +126,17 @@ export const services = [
   {
     name: "Alinhadores",
     description:
-      " Alinhamento dental com aparelhos fixos ou removíveis, corrigindo a mordida e restaurando a  estética do sorriso.",
+      "Alinhamento dental com aparelhos fixos ou removíveis, corrigindo a mordida e restaurando a  estética do sorriso.",
+  },
+  {
+    name: "DTM e Dor Orofacial",
+    description:
+      "Diagnóstico e tratamento das alterações das articulações da mandíbula e das dores na face e região orofacial.",
+  },
+  {
+    name: "Odontologia do Sono",
+    description:
+      "Investiga e trata os distúrbios respiratórios do sono, como a apneia, promovendo um sono de qualidade e mais saúde.",
   },
 ];
 
