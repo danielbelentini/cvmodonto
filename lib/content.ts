@@ -126,7 +126,7 @@ export const services = [
   {
     name: "Alinhadores",
     description:
-      "Alinhamento dental com aparelhos fixos, removíveis e alinhadores invisíveis, corrigindo a mordida e restaurando a  estética do sorriso.",
+      "Alinhamento dental com aparelhos fixos, removíveis e alinhadores invisíveis, corrigindo a mordida e restaurando a estética do sorriso.",
   },
   {
     name: "DTM e Dor Orofacial",
@@ -148,7 +148,7 @@ export const team = [
   {
     name: "Dra. Cristina Vioti Maria Ferraz",
     cro: "CROSP 50.760",
-    specialty: `Especialista em Dentística Restauradora e Ortodontia e responsável Técnica da CVM Odontologia.`,
+    specialty: `Especialista em Dentística Restauradora e Ortodontia e responsável Técnica da CVM Odontologia`,
     photo: "/images/team/dra-cristina-vioti-maria-ferraz.jpg",
     webp: "/images/team/dra-cristina-vioti-maria-ferraz.webp",
   },
