@@ -121,12 +121,12 @@ export const services = [
   {
     name: "Ortodontia",
     description:
-      "Alinha os dentes com aparelho fixo, corrigindo mordida e posicionamento para uma saúde bucal duradoura.",
+      "Alinha os dentes com aparelhos fixo, removível e alinhador invisível.",
   },
   {
     name: "Alinhadores",
     description:
-      "Alinhamento dental com aparelhos fixos ou removíveis, corrigindo a mordida e restaurando a  estética do sorriso.",
+      "Alinhamento dental com aparelhos fixos, removíveis e alinhadores invisíveis, corrigindo a mordida e restaurando a  estética do sorriso.",
   },
   {
     name: "DTM e Dor Orofacial",
